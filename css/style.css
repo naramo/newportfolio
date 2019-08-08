@@ -8,7 +8,7 @@ body { font-family: sans-serif; }
   background: #EEE;
 }
 
-.carousel-cell {
+ .carousel-cell {
   width: 66%;
   height: 200px;
   margin-right: 10px;
@@ -17,6 +17,9 @@ body { font-family: sans-serif; }
   counter-increment: carousel-cell;
 }
 
+.carousel.is-fullscreen .carousel-cell {
+  height: 100%;
+}
 /* cell number */
 .carousel-cell:before {
   display: block;
