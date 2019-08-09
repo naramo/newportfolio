@@ -4,6 +4,27 @@
 
 body { font-family: sans-serif; }
 
+
+.nav{
+	
+	font-family: 'Open Sans', sans-serif;
+	z-index: 2;
+	margin: 0 auto;
+	width: 80%;
+	top:0;
+	left:0;
+	right: 0;
+	margin-top: 3%;
+	position: fixed;
+	
+	-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-o-user-select: none;
+user-select: none;
+	
+ }
+
 .carousel {
   background: #fff;
 }
