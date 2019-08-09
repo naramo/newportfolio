@@ -24,6 +24,19 @@ body { font-family: sans-serif; }
 user-select: none;
 	
  }
+ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+	font-family: 'Open Sans', sans-serif;
+    float: left;
+	font-size: 11pt;
+	display: inline-block;
+	width: auto;
+}
 
 .carousel {
   background: #fff;
