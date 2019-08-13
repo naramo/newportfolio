@@ -57,7 +57,7 @@ li {
   display: relative;
   text-align: center;
   content: counter(carousel-cell);
-  line-height: 200px;
+  
   font-size: 80px;
   color: white;
 }
