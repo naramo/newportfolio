@@ -74,9 +74,17 @@ li {
   top: 50%;
   transform: translateY(-50%)
 }
-.cell_inner {
-background-image: url(../imgs/1.jpg);
-    
+.innboard {
+background-image: url(../imgs/1.jpg); 
+}
+.sonidos {
+background-image: url(../imgs/2.jpg); 
+}
+.nido {
+background-image: url(../imgs/3.jpg); 
+}
+.otro {
+background-image: url(../imgs/4.jpg); 
 }
 
 .carousel.is-fullscreen .carousel-image {
