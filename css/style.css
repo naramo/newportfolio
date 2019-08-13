@@ -74,6 +74,10 @@ li {
   top: 50%;
   transform: translateY(-50%)
 }
+.cell_inner {
+background-image: url(../imgs/1.jpg);
+    
+}
 
 .carousel.is-fullscreen .carousel-image {
   height: auto;
