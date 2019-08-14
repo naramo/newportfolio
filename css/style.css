@@ -42,35 +42,12 @@ li {
   background: #fff;
 }
 
- .carousel-cell {
+.carousel-cell {
   width: 100%;
-  height: 100%;
+  height: 900px;
   margin-right: 10px;
-  counter-increment: carousel-cell;
-}
-
-
-
-/* cell number */
-.carousel-cell:before {
-  display: relative;
-  text-align: center;
-  content: counter(carousel-cell);
-  font-size: 80px;
-  color: white;
-}
-
-
-.innboard {
-background-image: url(../imgs/1.jpg); 
-}
-.sonidos {
-background-image: url(../imgs/2.jpg); 
-}
-.nido {
-background-image: url(../imgs/3.jpg); 
-}
-.otro {
-background-image: url(../imgs/4.jpg); 
+  background: #000;
+  background-position: center center;
+  background-size: cover;
 }
 
