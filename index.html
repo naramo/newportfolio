@@ -5,7 +5,6 @@
   <title>NARAMO</title>
   <meta name="viewport" content="width=device-width">
     <link rel='stylesheet' href='https://npmcdn.com/flickity@2/dist/flickity.css'>
-    <link rel="stylesheet" href="https://unpkg.com/flickity-fullscreen@1/fullscreen.css">
     
     <link href="https://fonts.googleapis.com/css?family=Blinker:600&display=swap" rel="stylesheet">
     
@@ -28,15 +27,12 @@
 <!-- Flickity HTML init -->
 <div class="container">
     
-<div class="carousel js-flickity"
-  data-flickity='{ "wrapAround": true, "lazyLoad": 1, "setGallerySize": false, "imagesLoaded": true }' >
+<div class="carousel js-flickity"  data-flickity='{ "bgLazyLoad": 1 }'>
     
   <div class="carousel-cell">
       <p>UX/UI</p>
       <a href="innboard.html"> <p class="cell_title"> INNBOARD</p></a>
-      <div class="cel_inner innboard">
-      <img src="imgs/1.jpg"/>
-      </div> 
+      <div class="cel_inner innboard"  data-flickity-bg-lazyload="https://unsplash.it/480/640/?random"></div> 
     </div>
     
   <div class="carousel-cell">
@@ -68,8 +64,8 @@
 </div>
 
 <!-- partial -->
-  <script src='https://npmcdn.com/flickity@2/dist/flickity.pkgd.js'></script>
- <script src="https://unpkg.com/flickity-fullscreen@1/fullscreen.js"></script>
+<script src='https://npmcdn.com/flickity@2/dist/flickity.pkgd.js'></script>
+<script src='https://npmcdn.com/flickity-bg-lazyload@1.0.0/bg-lazyload.js'></script>
 <script  src="js/script.js"></script>
 
     
