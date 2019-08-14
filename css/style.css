@@ -51,3 +51,6 @@ li {
   background-size: cover;
 }
 
+.flickity-page-dots {
+  bottom: 10px;
+}
