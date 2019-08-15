@@ -27,7 +27,7 @@
 <!-- Flickity HTML init -->
 <div class="container">
     
-<div class="carousel js-flickity" data-flickity='{ "bgLazyLoad": 1, "wrapAround": true, "setGallerySize": false }' data-flickity-options='{ "prev-Next-Buttons": false }' >
+<div class="carousel js-carousel" data-flickity='{ "bgLazyLoad": 1, "wrapAround": true, "setGallerySize": false }' data-flickity-options='{ "prev-Next-Buttons": false }' >
     
     <div class="carousel-cell" data-flickity-bg-lazyload="imgs/1.jpg">
         <p class="section"> UX//UI </p>	
@@ -68,8 +68,10 @@
 </div>
 
 <!-- partial -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
 <script src='https://npmcdn.com/flickity@2/dist/flickity.pkgd.js'></script>
 <script src='https://npmcdn.com/flickity-bg-lazyload@1.0.0/bg-lazyload.js'></script>
+    
 <script  src="js/script.js"></script>
     <script>
         var $carousel = $('.js-carousel');
