@@ -31,7 +31,7 @@ ul {
 }
 
 li {
-	font-family: 'Blinker', sans-serif;
+	font-family: 'Poppins', sans-serif;
     float: left;
 	font-size: 11pt;
 	display: inline-block;
@@ -53,6 +53,16 @@ li {
 
 .cell_title{
   font-family: 'Poppins', sans-serif;
+  font-size: 30pt;
+  position: absolute;
+  z-index: 2;
+  top: 80%;
+  left: 50%;
+  margin: 0;  
+    
+}
+.section{
+  font-family: 'Anonymous Pro', monospace;
   font-size: 30pt;
   position: absolute;
   z-index: 2;
