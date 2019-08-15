@@ -63,10 +63,10 @@ li {
 }
 .section{
   font-family: 'Anonymous Pro', monospace;
-  font-size: 30pt;
+  font-size: 20pt;
   position: absolute;
   z-index: 2;
-  top: 50%;
+  top: 60%;
   left: 50%;
   margin: 0;  
     
