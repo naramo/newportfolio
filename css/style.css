@@ -7,7 +7,7 @@ body { font-family: sans-serif; }
 
 .nav{
 	
-	font-family: 'Blinker', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	z-index: 2;
 	margin: 0 auto;
 	width: 80%;
@@ -52,6 +52,7 @@ li {
 }
 
 .cell_title{
+  font-family: 'Poppins', sans-serif;
   font-size: 30pt;
   position: absolute;
   z-index: 2;
